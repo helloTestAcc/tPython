@@ -15,3 +15,11 @@ class GString:
 g = GString()
 g.set("First Message")
 g.print()
+
+class k:
+    def __str__(self,t):
+        return "메롱"+t
+    
+
+kk = k()
+print(kk.__str__("a"))
